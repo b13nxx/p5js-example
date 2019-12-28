@@ -1,4 +1,4 @@
-# p5.js-example
+# p5js-example
 
 <img width="600px" src="https://user-images.githubusercontent.com/4191018/71545634-a4856a80-299e-11ea-8392-8a76aa0ff68e.png" />
 
