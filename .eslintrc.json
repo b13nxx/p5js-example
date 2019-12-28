@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "standard-with-typescript"
+  ],
+  "ignorePatterns": [
+    "node_modules",
+    "**/*.d.ts"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.js"
+      ],
+      "parser": "espree"
+    }
+  ]
+}

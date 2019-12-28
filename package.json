@@ -1,0 +1,32 @@
+{
+  "name": "p5js-example",
+  "description": "Little project written using game mechanics with p5.js library",
+  "version": "1.0.0",
+  "main": "sketch.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --server --files \"./sketch.js\" \"./sketch.css\"",
+    "build": "tsc -p ./tsconfig.json --watch"
+  },
+  "keywords": [
+    "p5",
+    "game"
+  ],
+  "author": "Bahrican Akkoyun <bahricanakkoyun@gmail.com>",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "p5": "^0.10.2"
+  },
+  "devDependencies": {
+    "@types/p5": "^0.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.12.0",
+    "@typescript-eslint/parser": "^2.12.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard-with-typescript": "^11.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "typescript": "^3.7.4"
+  }
+}
